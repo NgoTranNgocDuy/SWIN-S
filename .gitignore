@@ -1,0 +1,36 @@
+# Dataset - quá lớn để đẩy lên GitHub (337 MB)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Model weights / checkpoints (thường rất lớn)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
