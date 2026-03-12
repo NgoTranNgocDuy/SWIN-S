@@ -1,0 +1,45 @@
+{
+  "pretrained": {
+    "accuracy": 8.0,
+    "flops": "1",
+    "latency_ms": 2014.07,
+    "throughput": 2.0,
+    "note": "model_goc_no_adaptation"
+  },
+  "baseline": {
+    "accuracy": 99.0,
+    "flops": "1",
+    "latency_ms": 1307.89,
+    "throughput": 3.1,
+    "checkpoint_mb": 559.8
+  },
+  "apb": {
+    "accuracy": 25.0,
+    "flops": "7",
+    "latency_ms": 1351.79,
+    "throughput": 3.0,
+    "cr_weight": 31.14,
+    "binary_pct": 99.91,
+    "checkpoint_mb": 440.0
+  },
+  "fimaq": {
+    "accuracy": 99.0,
+    "flops": "7",
+    "latency_ms": 687.07,
+    "throughput": 5.8,
+    "cr_weight": 4.77,
+    "cr_activation": 4.64,
+    "cr_combined": 4.77,
+    "checkpoint_mb": 372.9
+  },
+  "apb_fimaq": {
+    "accuracy": 54.0,
+    "flops": "7",
+    "latency_ms": 992.67,
+    "throughput": 4.0,
+    "cr_weight": 7.78,
+    "cr_activation": 4.0,
+    "binary_pct": 89.95,
+    "checkpoint_mb": 233.5
+  }
+}
